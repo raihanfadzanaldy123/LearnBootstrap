@@ -38,6 +38,9 @@
           <a class="dropdown-item" href="#">Another action</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
+        <li class="nav-item active">
+        <a class="nav-link" href="loginPPDB.php">Logout  <span class="sr-only">(current)</span></a>
+      </li>
         </div>
       </li>
       <li class="nav-item">
@@ -174,3 +177,11 @@ if (isset($_SESSION['login'])) {
     header("location:loginPPDB.php");
 }
 ?>
+
+
+
+
+
+
+
+
