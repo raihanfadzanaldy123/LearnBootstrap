@@ -36,14 +36,14 @@
             <div class="card-body">
                 <div class="table-responsive">
                     <table class="table">
-                          <th>Judul Buku</th>
+                          <th>Judul Buku.</th>
                             <th>Kode</th>
                             <th>Pengarang</th>
                             <th>Jenis Buku</th>
                         </tr>
                         <tr>
                             <td><?= $nama1 ?></td>
-                            <td><?= $alamat1 ?></td>
+                            <td><?= $alamat1 ?></td> 
                             <td><?= $jk1 ?></td>
                             <td><?= $tanggalB; ?></td>
                             <td><?= $alamat1; ?></td>

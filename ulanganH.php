@@ -16,12 +16,12 @@
 <!-- content -->
 <div class="container" method="POST" >
 <div class="card">
-    <div class="col-md-12" >
+    <div class="col-md-12" > 
         <div class="card-header"> Pembelian Buku </div>
             <div class="card-body">
             <!-- ISI Contentent -->
    <form action="ulanganH2.php" method="POST" >
-    <div class="form-group"> Nama
+    <div class="form-group"> Nama :
   <input type="text" name="nama" class="form-control" required> </div>
     <div class="form-group"> Alamat
   <textarea name="alamat" class="form-control" rows="4" required></textarea> </div>

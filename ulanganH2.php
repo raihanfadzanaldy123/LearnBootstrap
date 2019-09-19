@@ -30,7 +30,7 @@
             $tanggalB   = $_POST['tanggalBeli'];
             $jumbuk     = $_POST['jumbuk'];
 
-            for ($i=0; $i < $jumbuk ; $i++) {  ?>
+            for ($i=0; $i < $jumbuk ; $i++) {  ?> 
                 
      
 
@@ -42,7 +42,7 @@
         <input type="hidden" name="jumbuk" value="<?= $jumbuk ?>">
 
 
-                <div class="form-group"> Judul Buku
+                <div class="form-group"> Judul Buku :
                     <input type="text" name="judul" class="form-control" required> </div>
                 <div class="form-group"> Kode Buku
                     <input type="text" name="kode" class="form-control" required> </div>
